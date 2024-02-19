@@ -126,6 +126,7 @@
 .buy-ticket{
     background-color: #F7F8F8;
     margin-top: 70px;
+    margin-bottom: 60px;
     border-top: 3px solid #1DD100;
     border-radius: 50px;
     padding-top: 60px;
@@ -191,3 +192,74 @@
      border-radius: 20px;
      background-color: #EBECED;
 }
+/* Total price section css */
+
+.second-para{
+    padding: 20px;
+    border-radius: 20px;
+}
+.seat-plan{
+    width: 60%;
+    border-right: 1px dotted;
+}
+.seat-plan h3{
+    border-bottom: 1px dotted;
+    padding: 10px 50px;
+}
+.availabe-select{
+    border-bottom: 1px dotted;
+    margin-bottom: 20px;
+    padding: 10px 50px;
+}
+.bus-plan {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+
+  }
+  .bus-seat {
+    width: calc(100% / 2);
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #F7F8F8;
+  }
+.total-amount{
+    width: 38%;
+}
+  .total-amount h3{
+    border-bottom: 1px dotted;
+    padding: 10px 50px;
+  }
+.join{
+    width: 100%;
+
+    margin-bottom: 10px;
+}
+
+
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  input[type="text"],
+  input[type="email"],
+  select {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  .from-btn{
+  border: 1px solid #1DD100;
+    color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+ 
