@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 .global-margin{
     margin-left: 10%;
@@ -149,6 +150,9 @@
     text-align: center;
     font-size: 40px;
 }
+.bus-plan h1{
+    font-size: 18px;
+}
 .dhaka-sylhet{
     padding: 20px;
     border-radius: 20px;
@@ -229,10 +233,7 @@
 .total-amount{
     width: 38%;
 }
-  .total-amount h3{
-    border-bottom: 1px dotted;
-    padding: 10px 50px;
-  }
+ 
 .join{
     width: 100%;
 

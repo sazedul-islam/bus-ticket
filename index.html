@@ -51,7 +51,7 @@
             <h1 class="font-extrabold">End-to-End Travel with <br><span>B Paribahan</span> </h1>
             <p>Yes, you can run unit tests and view the results directly within
                the app. <br>The integrated testing features allow for a streamlined .</p>
-               <button class="font-bold">Buy Tickets</button>
+               <a href="#ticket"><button class="font-bold" id="btn"  >Buy Tickets</button></a>
         </div>
       </div>
 
@@ -111,7 +111,7 @@
     <!-- Offer Section End -->
 
     <!-- Buy ticket section start -->
-    <section class="buy-ticket">
+    <section class="buy-ticket" id="ticket" >
         <div class="global-margin mb-12 ">
             <h1 class="font-extrabold">P.H Paribahan</h1>
              <p class="text-center mb-12">Yes, you can run unit tests and view the results directly within the app. 
@@ -131,7 +131,7 @@
                    </div>
                    <div class="flex total-sit gap-2">
                     <i class="fa-solid fa-bus"></i>
-                    <h6>40</h6>
+                    <h6> <span id="total-bus-seat">40</span></h6>
                     <p>Seats left</p>
                    </div>
                  </div>
@@ -176,7 +176,7 @@
                <div class="taka ">
                  <div >
                     <img src="images/fare.png" alt="">
-                    <h2 class="font-extrabold text-3xl">550 Taka</h2>
+                    <h2 class="font-extrabold text-3xl"> <span id="ticket-tk" onclick="amount" >550</span> Taka</h2>
                     <p>Per Seat</p>
                  </div>
                </div>
@@ -194,52 +194,71 @@
                        <div >
                          <p><i class="fa-solid fa-bus"></i> Available</p>
                        </div>
-                       <div>
-                         <p><i class="fa-solid fa-bus"></i> Selected</p>
+                       <div class="flex items-center gap-2">
+                        <i class="fa-solid fa-bus"></i><p>  Selected</p>
                        </div>
                     </div>
                     <div class="bus-plan">
                         <!-- Seat Plan -->
                         <div class="text-center font-bold">A</div>
-                        <div class="bus-seat">A1</div>
-                        <div class="bus-seat">A2</div>
-                        <div class="bus-seat">A3</div>
-                        <div class="bus-seat">A4</div>
+                        <div><button class="bus-seat" id="bbbb" onclick=""> <h1 class="text-xl">A1 </button></div>
+                        <div><button class="bus-seat" id="bbbb" onclick=""> <h1 class="text-xl">A2</h1> </button></div>
+                        <div><button class="bus-seat" id="bbbb" onclick=""> <h1 class="text-xl">A3</h1> </button></div>
+                        <div><button class="bus-seat" id="bbbb" onclick=""> <h1 class="text-xl">A4</h1> </button></div>
+
                         <div class="text-center font-bold">B</div>
-                        <div class="bus-seat">B1</div>
-                        <div class="bus-seat">B2</div>
-                        <div class="bus-seat">B3</div>
-                        <div class="bus-seat">B4</div>
+                        <div><button  class="bus-seat"  id="bbbb" onclick=""> <h1 class="text-xl">B1</h1> </button></div>
+                        <div><button  class="bus-seat"  id="bbbb" onclick=""> <h1 class="text-xl">B2</h1> </button></div>
+                        <div><button  class="bus-seat"  id="bbbb" onclick=""> <h1 class="text-xl">B3</h1> </button></div>
+                        <div><button  class="bus-seat"  id="bbbb" onclick=""> <h1 class="text-xl">B4</h1> </button></div>
+
                         <div class="text-center font-bold">C</div>
-                        <div class="bus-seat">C1</div>
-                        <div class="bus-seat">C2</div>
-                        <div class="bus-seat">c3</div>
-                        <div class="bus-seat">C4</div>
+                        <div><button  class="bus-seat" id="bbbb" onclick=""> <h1 class="text-xl">C1</h1> </button></div>
+                        <div><button  class="bus-seat" id="bbbb" onclick=""> <h1 class="text-xl">C2</h1> </button></div>
+                        <div><button  class="bus-seat" id="bbbb" onclick=""> <h1 class="text-xl">c3</h1> </button></div>
+                        <div><button  class="bus-seat" id="bbbb" onclick=""> <h1 class="text-xl">C4</h1> </button></div>
+
                         <div class="text-center font-bold">D</div>
-                        <div class="bus-seat">D1</div>
-                        <div class="bus-seat">D2</div>
-                        <div class="bus-seat">D3</div>
-                        <div class="bus-seat">D4</div>
+                        <div><button  class="bus-seat" id="bbbb" onclick=""> <h1 class="text-xl">D1</h1> </button></div>
+                        <div><button  class="bus-seat" id="bbbb" onclick=""> <h1 class="text-xl">D2</h1> </button></div>
+                        <div><button  class="bus-seat" id="bbbb" onclick=""> <h1 class="text-xl">D3</h1> </button></div>
+                        <div><button  class="bus-seat" id="bbbb" onclick=""> <h1 class="text-xl">D4</h1> </button></div>
+
                         <div class="text-center font-bold">E</div>
-                        <div class="bus-seat">E1</div>
-                        <div class="bus-seat">E2</div>
-                        <div class="bus-seat">E3</div>
-                        <div class="bus-seat">E4</div>
+                        <div><button  class="bus-seat" id="bbbb" onclick=""> <h1 class="text-xl">E1</h1> </button></div>
+                        <div><button  class="bus-seat" id="bbbb" onclick=""> <h1 class="text-xl">E2</h1> </button></div>
+                        <div><button  class="bus-seat" id="bbbb" onclick=""> <h1 class="text-xl">E3</h1> </button></div>
+                        <div><button  class="bus-seat" id="bbbb" onclick=""> <h1 class="text-xl">E4</h1> </button></div>
+
                         <div class="text-center font-bold">F</div>
-                        <div class="bus-seat">F1</div>
-                        <div class="bus-seat">F2</div>
-                        <div class="bus-seat">F3</div>
-                        <div class="bus-seat">F4</div>
+                        <div><button  class="bus-seat" id="bbbb" onclick=""> <h1 class="text-xl">F1</h1> </button></div>
+                        <div><button  class="bus-seat" id="bbbb" onclick=""> <h1 class="text-xl">F2</h1> </button></div>
+                        <div><button  class="bus-seat" id="bbbb" onclick=""> <h1 class="text-xl">F3</h1> </button></div>
+                        <div><button  class="bus-seat" id="bbbb" onclick=""> <h1 class="text-xl">F4</h1> </button></div>
+
                         <div class="text-center font-bold">G</div>
-                        <div class="bus-seat">G1</div>
-                        <div class="bus-seat">G2</div>
-                        <div class="bus-seat">G3</div>
-                        <div class="bus-seat">G4</div>
+                        <div><button  class="bus-seat" id="bbbb" onclick=""> <h1 class="text-xl">G1</h1> </button></div>
+                        <div><button  class="bus-seat" id="bbbb" onclick=""> <h1 class="text-xl">G2</h1> </button></div>
+                        <div><button  class="bus-seat" id="bbbb" onclick=""> <h1 class="text-xl">G3</h1> </button></div>
+                        <div><button  class="bus-seat" id="bbbb" onclick=""> <h1 class="text-xl">G4</h1> </button></div>
+
                         <div class="text-center font-bold">H</div>
-                        <div class="bus-seat">H1</div>
-                        <div class="bus-seat">H2</div>
-                        <div class="bus-seat">H3</div>
-                        <div class="bus-seat">H4</div>
+                        <div><button  class="bus-seat" id="bbbb" onclick=""> <h1 class="text-xl">H1</h1> </button></div>
+                        <div><button  class="bus-seat" id="bbbb" onclick=""> <h1 class="text-xl">H2</h1> </button></div>
+                        <div><button  class="bus-seat" id="bbbb" onclick=""> <h1 class="text-xl">H3</h1> </button></div>
+                        <div><button  class="bus-seat" id="bbbb" onclick=""> <h1 class="text-xl">H4</h1> </button></div>
+
+                        <div class="text-center font-bold">I</div>
+                        <div><button  class="bus-seat" id="bbbb" onclick=""> <h1 class="text-xl">I1</h1> </button></div>
+                        <div><button  class="bus-seat" id="bbbb" onclick=""> <h1 class="text-xl">I2</h1> </button></div>
+                        <div><button  class="bus-seat" id="bbbb" onclick=""> <h1 class="text-xl">I3</h1> </button></div>
+                        <div><button  class="bus-seat" id="bbbb" onclick=""> <h1 class="text-xl">I4</h1> </button></div>
+
+                        <div class="text-center font-bold">J</div>
+                        <div><button  class="bus-seat" id="bbbb" onclick=""> <h1 class="text-xl">J1</h1> </button></div>
+                        <div><button  class="bus-seat" id="bbbb" onclick=""> <h1 class="text-xl">J2</h1> </button></div>
+                        <div><button  class="bus-seat" id="bbbb" onclick=""> <h1 class="text-xl">J3</h1> </button></div>
+                        <div><button  class="bus-seat" id="bbbb" onclick=""> <h1 class="text-xl">J4</h1> </button></div>
                       </div>
                  </div>
 
@@ -250,7 +269,7 @@
                    <div class="">
                       <div class="flex justify-around border-dashed border-b-2 py-2">
                         <div>
-                            <h4>Seat <span></span></h4>
+                            <h4>Seat <span id="count">0</span></h4>
                           </div>
                           <div>
                             <h4>Class</h4>
@@ -260,24 +279,33 @@
                           </div>
                       </div>
 
-                      <div class="flex justify-around border-dashed border-b-2">
-                        <div >
-                            <h4># <span></span></h4>
-                          </div>
-                          <div>
-                            <h4>#</h4>
-                          </div>
-                          <div>
-                             <h4>$</h4>
-                          </div>
-                      </div>
+                    <!-- When buy the ticket and Update Section -->
+                    <div>
+                      <ul>
+                          <li class="flex justify-around border-dashed border-b-2 py-2">
+                              <h5 id="seat-no"></h5>
+                              <h4 id="seat-class"></h4>
+                              <h3 id="seat-price"></h3>
+                          </li>
+
+                      </ul>
+                  </div>
 
                       <div class="flex justify-between px-10 ">
                         <div >
                             <h4>Total Price<span></span></h4>
                           </div>
                           <div>
-                            <h4>BDT <span></span></h4>
+                            <h4>BDT <span id="total-price">00</span></h4>
+                          </div>  
+                      </div>
+
+                      <div class="flex justify-between px-10 ">
+                        <div >
+                            <h4>Discount<span ></span></h4>
+                          </div>
+                          <div>
+                            <h4>BDT <span id="discount-price">00</span></h4>
                           </div>  
                       </div>
 
@@ -287,8 +315,8 @@
                                 class="input input-bordered join-item w-3/4 rounded-xl text-sm border-gray-300 "
                                 placeholder="Have any copupon?" id="input-code" type="text" />
                             <button
-                                class="btn join-item rounded-xl text-white    "
-                                type="submit" id="btn-apply" disabled>Apply</button>
+                                class="btn bg-[#1DD100] join-item rounded-xl text-white    "
+                                type="submit" id="btn-apply"  disabled>Apply</button>
                         </div>
 
                         <div class="flex justify-between px-10 ">
@@ -296,7 +324,7 @@
                                 <h4>Grand Total<span></span></h4>
                               </div>
                               <div>
-                                <h4>BDT <span></span></h4>
+                                <h4>BDT <span id="grand-total">00</span></h4>
                               </div>  
                           </div>
                        </div>
