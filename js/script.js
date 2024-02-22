@@ -44,7 +44,6 @@ for (i=0; i < allSeat.length; i++){
          grandTotal = totalPrice - discountPrice;
          const grandTotals = (document.getElementById("grand-total").innerText = grandTotal);
          
-    
           const counts = (document.getElementById("count").innerText = count);
 
           count ++;
@@ -73,7 +72,7 @@ for (j = 0; j < bgChange.length; j++){
     if (this.classList.contains("selected") && count <= 5){
         sitSelect.classList.add('bg-[#1DD100]')
     }
- 
+
 })
 }
 

@@ -20,7 +20,6 @@
 }
 .btn i{
     font-size: 20px;
-
 }
 .logo{
     cursor: pointer;
@@ -29,7 +28,6 @@
 .manu-font{
     font-size: 20px;
 }
-
 
 /* Hero section css */
 .hero-content{
@@ -76,7 +74,6 @@
    margin-left: 2%;
     position: absolute;
     margin-top: -4%;
-
 }
 .ticket-item{
     border-bottom: 3px solid #1DD100;
@@ -96,14 +93,6 @@
 }
 
 /* Offer section css */
-.offers-img{
-   width: 48%;
-}
-.offers-img img{
-    height: auto;
-    width: 90%;
-    margin-left: 4%;
-}
 .offer-content{
     text-align: center;
 }
@@ -233,15 +222,11 @@
 .total-amount{
     width: 38%;
 }
- 
 .join{
     width: 100%;
-
     margin-bottom: 10px;
 }
-
-
-  .form-group {
+ .form-group {
     margin-bottom: 1rem;
   }
   label {
@@ -264,3 +249,42 @@
     cursor: pointer;
   }
  
+
+  @media (max-width: 768px){
+   
+    .review-content{ display: inline !important;}
+    .global-margin{margin-left: 5%; margin-right: 5%;}
+    .ticket-review {width: 100%;margin-left: 0; position: initial; margin-top: 0;}
+    .ticket-item{width: 100%;margin-bottom: 10px;justify-content: center;margin-left: 0;}
+    
+    .discout-first-items{display: initial !important;}
+    .offers-item{width: 100% !important;margin-bottom: 20px;}
+    .offers-item h2{font-size: 30px;}
+    .dotted{display: none;}
+
+   .logo{ display: none;}
+   .ticket-price{display: initial !important;}
+   .destination { width: 100%; padding: 0;}
+   .borading-point{margin-left: 10px;}
+   .taka{width: 100%;}
+   .taka img {margin-left: 35px;}
+
+   .seat-resposive{display: initial !important;}
+
+   .seat-plan {width: 99%; border-right: none; margin-bottom: 40px;}
+   .total-amount {width: 99%;}
+   .footer-content h2{ font-size: 30px;}
+   .footer-content p{ font-size: 12px;}
+
+  }
+
+  @media (max-width : 576px){
+    .hero-para h1 { font-size: 40px !important;}}
+
+
+  @media (max-width : 425px){
+    .hero-para h1 {font-size: 30px !important;}
+    .offers-item h2 { font-size: 25px; }
+    .offers-item h6{ font-size: 16px; } 
+    .offers-item p{font-size: 13px;}
+  }
